@@ -27,6 +27,19 @@
   font-size: 15px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-left a:hover {
+  color: #0540f2;
+}
+
+.nav-right a:hover {
+  color: #0540f2;
+}
+
 .logo h4 {
   font-family: "Belanosima", sans-serif;
   font-size: 30px;
@@ -284,7 +297,7 @@
 
 .content-1 {
   width: 300px;
-  height: 180px;
+  height: 150px;
   background-color: #0540f2;
   border-radius: 25px;
   display: flex;
@@ -322,7 +335,7 @@
 
 .content-2 {
   width: 300px;
-  height: 180px;
+  height: 150px;
   background-color: #0540f2;
   border-radius: 25px;
   margin-top: 50px;
@@ -356,8 +369,193 @@
   color: white;
 }
 
+/* -------------Container -- 4 ----------- */
+
 .container-4 {
-  padding-top: 50px;
   background-color: #eaeaea;
-  height: 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
+
+.title-con-4 h4 {
+  text-align: center;
+  font-family: "Belanosima", sans-serif;
+  font-size: 48px;
+  max-width: 700px;
+  margin: auto;
+  color: #0540f2;
+}
+
+.paragraf-con-4 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.con-img-4 {
+  width: 500px;
+  height: 450px;
+  background-color: antiquewhite;
+  border-radius: 25px;
+}
+
+.con-img-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-con-4 {
+  width: 480px;
+  max-height: 500px;
+  margin-left: 30px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-check {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-icon {
+  width: 35px;
+  height: 35px;
+  background-color: antiquewhite;
+}
+
+.img-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.icon-check span {
+  margin-left: 10px;
+  font-family: "Belanosima", sans-serif;
+  font-size: 20px;
+}
+
+.btn-con-4 {
+  width: 250px;
+  height: 40px;
+  background-color: #0540f2;
+  border-radius: 60px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-con-4 span {
+  font-family: "Belanosima", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+/* --------------CONTAINER----5------- */
+
+.container-5 {
+  background-color: #0540f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-con-5 h4 {
+  text-align: center;
+  font-family: "Belanosima", sans-serif;
+  font-size: 48px;
+  max-width: 450px;
+  margin: auto;
+  color: white;
+}
+
+.paragraf-con-5 {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.content-con-5 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-arrow {
+  width: 18px;
+  height: 29px;
+  margin-right: 200px;
+}
+
+.left-arrow img {
+  width: 100%;
+  height: 100%;
+}
+
+.oval-img {
+  width: 145px;
+  height: 145px;
+  border-radius: 100%;
+  margin-right: 200px;
+}
+
+.oval-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.right-arrow {
+  width: 18px;
+  height: 29px;
+}
+
+.right-arrow img {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: "Belanosima", sans-serif;
+  font-size: 24px;
+}
+
+.name p {
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.paragraf-akhir {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 35px;
+}
+
+/* -------------CONTAINER -- 6 ---------- */
