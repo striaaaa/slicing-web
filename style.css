@@ -1,0 +1,363 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-utama {
+  background-image: url(assets/Rectangle\ 5.png);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.navbar {
+  height: 50px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.nav-left span {
+  padding-left: 30px;
+  font-family: "Belanosima", sans-serif;
+  font-size: 15px;
+}
+
+.logo h4 {
+  font-family: "Belanosima", sans-serif;
+  font-size: 30px;
+}
+
+.nav-right span {
+  padding-right: 30px;
+  font-family: "Belanosima", sans-serif;
+  font-size: 15px;
+}
+
+.title {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.title p {
+  margin-bottom: 50px;
+  font-family: "Belanosima", sans-serif;
+  font-size: 98px;
+}
+
+.title span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  max-width: 800px;
+}
+
+.btn-title {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.get-started {
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  border-color: white;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Belanosima", sans-serif;
+  font-size: 15px;
+}
+
+.get-started:hover {
+  background-color: #0540f2;
+  border: none;
+  cursor: pointer;
+}
+
+.learn-more {
+  width: 150px;
+  height: 30px;
+  margin-left: 200px;
+  border-radius: 50px;
+  border-color: white;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Belanosima", sans-serif;
+  font-size: 15px;
+}
+
+.learn-more:hover {
+  background-color: #0540f2;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------------Container-2----------- */
+
+.container-2 {
+  background-color: #eaeaea;
+  padding-top: 100px;
+}
+
+.title-con-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-about h4 {
+  margin-right: 40px;
+  max-width: 600px;
+  font-family: "Belanosima", sans-serif;
+  font-size: 48px;
+  color: #0540f2;
+}
+
+.right-about {
+  max-width: 400px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.con-img-utama {
+  display: flex;
+  justify-content: center;
+}
+
+.con-img {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.img1 {
+  width: 350px;
+  height: 500px;
+  background-color: aqua;
+  border-radius: 25px;
+  margin-right: 75px;
+}
+
+.img1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-1 {
+  width: 300px;
+  height: 500px;
+  /* background-color: aqua; */
+  border-radius: 25px;
+  margin-left: 40px;
+  flex-direction: column;
+}
+
+.img-2 {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  border-radius: 25px;
+}
+
+.img-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-paragraf {
+  padding-top: 50px;
+}
+
+.btn-read {
+  width: 150px;
+  height: 30px;
+  margin-top: 60px;
+  border-radius: 60px;
+  background-color: #0540f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Belanosima", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+.right-card {
+  width: 180px;
+  max-height: 500px;
+  /* background-color: antiquewhite; */
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.card-2 {
+  width: 120px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-2 span {
+  font-family: "Belanosima", sans-serif;
+  font-size: 20px;
+}
+
+.card-2 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.card-3 {
+  width: 120px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-3 span {
+  font-family: "Belanosima", sans-serif;
+  font-size: 20px;
+}
+
+.card-3 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+/* ------------Containe - 3 --------------- */
+
+.container-3 {
+  background-color: #eaeaea;
+  padding-top: 150px;
+}
+
+.title-con-3 h4 {
+  text-align: center;
+  font-family: "Belanosima", sans-serif;
+  font-size: 48px;
+  max-width: 700px;
+  margin: auto;
+  color: #0540f2;
+}
+
+.paragraf-con-3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cards-1 {
+  width: 300px;
+  /* height: 700px; */
+  /* background-color: blanchedalmond; */
+}
+
+.content-1 {
+  width: 300px;
+  height: 180px;
+  background-color: #0540f2;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-content {
+  width: 70px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.img-content img {
+  width: 100%;
+  height: 100%;
+}
+
+.paragraf-cards {
+  margin-left: 30px;
+}
+
+.paragraf-cards span {
+  color: white;
+  font-family: "Belanosima", sans-serif;
+  font-size: 18px;
+}
+
+.paragraf-cards p {
+  margin-top: 10px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.content-2 {
+  width: 300px;
+  height: 180px;
+  background-color: #0540f2;
+  border-radius: 25px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-2 {
+  width: 300px;
+  /* height: 700px; */
+  /* background-color: blanchedalmond; */
+  margin-left: 50px;
+}
+
+.btn-con-3 {
+  width: 250px;
+  height: 45px;
+  border-radius: 60px;
+  background-color: #0540f2;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-con-3 span {
+  font-family: "Belanosima", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.container-4 {
+  padding-top: 50px;
+  background-color: #eaeaea;
+  height: 20px;
+}
