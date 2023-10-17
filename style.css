@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
 .container-utama {
   background-image: url(assets/Rectangle\ 5.png);
   background-size: cover;
@@ -207,6 +211,12 @@ a {
   color: white;
 }
 
+.btn-read:hover {
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #00279c;
+}
+
 .right-card {
   width: 180px;
   max-height: 500px;
@@ -363,6 +373,12 @@ a {
   align-items: center;
 }
 
+.btn-con-3:hover {
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #00279c;
+}
+
 .btn-con-3 span {
   font-family: "Belanosima", sans-serif;
   font-size: 18px;
@@ -458,6 +474,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn-con-4:hover {
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #00279c;
 }
 
 .btn-con-4 span {
@@ -559,3 +581,253 @@ a {
 }
 
 /* -------------CONTAINER -- 6 ---------- */
+
+.container-6 {
+  background-color: #eaeaea;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.title-con-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-about-6 h4 {
+  margin-right: 40px;
+  max-width: 550px;
+  font-family: "Belanosima", sans-serif;
+  font-size: 48px;
+  color: #0540f2;
+}
+
+.right-about-6 {
+  max-width: 400px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.btn-con-6 {
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 150px;
+  height: 30px;
+  border-radius: 60px;
+  background-color: #0540f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-con-6:hover {
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #00279c;
+}
+
+.btn-con-6 span {
+  font-family: "Belanosima", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.container-cards-6 {
+  display: flex;
+  justify-content: center;
+  /* background-color: aquamarine; */
+  width: 70%;
+  height: 550px;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.card-pertama {
+  width: 320px;
+  height: 550px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.img-card {
+  width: 320px;
+  height: 280px;
+  border-radius: 25px;
+  /* background-color: black; */
+}
+
+.img-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-img {
+  width: 160px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: #0540f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-img:hover {
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #00279c;
+}
+
+.btn-img span {
+  font-family: "Belanosima", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.date {
+  padding-top: 20px;
+}
+
+.date span {
+  font-family: "Belanosima", sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-left: 20px;
+}
+
+.title-kartu {
+  max-width: 250px;
+  font-family: "Belanosima", sans-serif;
+  font-size: 20px;
+  color: #0540f2;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.desc-kartu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-top: 20px;
+  max-width: 250px;
+}
+
+.card-kedua {
+  width: 320px;
+  height: 550px;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 50px;
+}
+.card-ketiga {
+  width: 320px;
+  height: 550px;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 50px;
+}
+
+.last-con-6 {
+  padding-top: 200px;
+}
+
+.join {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: "Belanosima", sans-serif;
+  font-size: 48px;
+  color: #0540f2;
+}
+
+.lorem {
+  padding-top: 40px;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.btn-6 {
+  width: 250px;
+  height: 45px;
+  border-radius: 60px;
+  background-color: #0540f2;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-6:hover {
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #00279c;
+}
+
+.btn-6 span {
+  font-family: "Belanosima", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+/* ----------------Footer-------- */
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #0540f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-fot-1 {
+  padding-left: 50px;
+}
+
+.content-fot-1 h3 {
+  font-family: "Belanosima", sans-serif;
+  color: white;
+  font-size: 48px;
+}
+
+.content-fot-1 p {
+  max-width: 350px;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.content-fot-2 {
+  padding-left: 100px;
+  text-align: center;
+}
+
+.atas {
+  font-family: "Belanosima", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+
+.bawah {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.bawah span {
+  margin-top: 15px;
+}
+
+/* --------------KELARRRRRR---------------- */
